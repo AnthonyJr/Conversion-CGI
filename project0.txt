@@ -1,0 +1,53 @@
+
+Project #0 - Due Wednesday-September 14, 23:59:59pm
+
+Use the CS Portal and submit a ZIP file as "Project #0".
+---------------------------------------------------------
+
+Note: You should follow Dr. Finkel's checklist for good programming:
+http://www.cs.uky.edu/~raphael/checklist.html
+
+---------------------------------------------------------
+
+- You are to implement a simple web page to convert units of measurement.
+
+- Your web page must be implemented on the www.cs.uky.edu webserver.
+
+- Your web page must reside at the following URL:
+	http://www.cs.uky.edu/~YOURUSERID/CS316/convert.html
+
+- Your CGI program must reside at the following URL:
+	http://www.cs.uky.edu/~YOURUSERID/CS316/convert_units.cgi
+
+- Your HTML file should:
+	- use HTML forms to ask the user for a number, a unit, and a new
+	  unit, like:   77, miles, kilometers.
+	- either allow the user to type the units, or use a select input
+	  or by radio type, etc.
+	- use the GET method and send the user input via the ACTION attribute
+	  to your CGI program (see below).
+
+- Your CGI program should:
+	- be written in perl, python, ruby, or C/C++.
+	- should never abort due to incorrect user input.
+	- should validate units being converted.
+	- should perform the required arithmetic to convert the value the
+	  user input to the new units.
+	- return the new value and units back to the user or an appropriate
+	  error message.
+	- NOT call any external URLs from within the program.
+	- be properly documented.
+	
+
+Your HTML/CGI files should handle the following units:
+
+kilometers, meters, miles, feet
+celsius, fahrenheit, kelvin
+hours, minutes, seconds, days
+
+
+What you are required to turn in your ZIP archive:
+
+1. A file named "convert.html".
+2. A file named "convert_units.cgi", or the source code if C/C++.
+-----------------------------------------------------------------------------
